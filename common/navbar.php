@@ -42,7 +42,7 @@
 									<li class="<?php if(basename($_SERVER['PHP_SELF'])=='contact-us-sumedacellular-kurunegala-srilanka.php'){echo 'active';} ?>"><a href="contact-us-sumedacellular-kurunegala-srilanka">Contact Us</a></li>
 									<!-- <li class="<?php // if(basename($_SERVER['PHP_SELF'])=='upload/index'){echo 'active';} ?>"><a href="upload/index">Free Download</a></li> -->
 
-									<li>
+									<!-- <li>
 										<div class="drpdwn">
 											<a class="drpbtn">Track Product</a>
 											<div class="dropdown-content">
@@ -52,7 +52,8 @@
 											</div>
 										</div>
 
-									</li>
+									</li> -->
+									<li class="<?php if(basename($_SERVER['PHP_SELF'])=='track-order.php'){echo 'active';} ?>"><a href="track-order">Track Order</a></li>
 									<li class="<?php if(basename($_SERVER['PHP_SELF'])=='gallery.php'){echo 'active';} ?>"><a href="gallery">Gallery</a></li>
 									<li class="<?php if(basename($_SERVER['PHP_SELF'])=='customer_review.php'){echo 'active';} ?>"><a href="customer_review">Reviews</a></li>
 									<li><a href="https://cellparts.lk/blog">Blog</a></li>
