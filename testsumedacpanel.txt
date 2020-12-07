@@ -1,3 +1,0 @@
-$database = "sumedacellular_sumedatest";
-$username = "sumedacellular_testsumeda";
-$password = "Sum77557";
