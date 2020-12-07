@@ -1,0 +1,40 @@
+User-agent: Googlebot
+Allow: https://sumedacellular.com/
+Allow: https://sumedacellular.com/about-us-sumedacellular-kurunegala-srilanka
+Allow: https://sumedacellular.com/accessories-sumedacellular-kurunegala-srilanka
+Allow: https://sumedacellular.com/newarrivals-sumedacelullar-kurunegala-srilanka
+Allow: https://sumedacellular.com/contact-us-sumedacellular-kurunegala-srilanka
+Allow: https://sumedacellular.com/products.php
+Disallow: https://sumedacellular.com/backend/
+
+User-agent: Googlebot-News
+Allow: https://sumedacellular.com/
+Allow: https://sumedacellular.com/about-us-sumedacellular-kurunegala-srilanka
+Allow: https://sumedacellular.com/products.php
+Disallow: https://sumedacellular.com/backend/
+
+User-agent: Googlebot-Image
+Allow: https://sumedacellular.com/
+Allow: https://sumedacellular.com/about-us-sumedacellular-kurunegala-srilanka
+Allow: https://sumedacellular.com/accessories-sumedacellular-kurunegala-srilanka
+Allow: https://sumedacellular.com/newarrivals-sumedacelullar-kurunegala-srilanka
+Allow: https://sumedacellular.com/contact-us-sumedacellular-kurunegala-srilanka
+Allow: https://sumedacellular.com/products.php
+Disallow: https://sumedacellular.com/backend/
+
+User-agent: Googlebot-Video
+Disallow: http://cyclomax.net/backend/
+
+User-agent: Googlebot-Mobile
+Allow: https://sumedacellular.com/
+Allow: https://sumedacellular.com/about-us-sumedacellular-kurunegala-srilanka
+Allow: https://sumedacellular.com/accessories-sumedacellular-kurunegala-srilanka
+Allow: https://sumedacellular.com/newarrivals-sumedacelullar-kurunegala-srilanka
+Allow: https://sumedacellular.com/contact-us-sumedacellular-kurunegala-srilanka
+Allow: https://sumedacellular.com/products.php
+Disallow: https://sumedacellular.com/backend/
+
+User-agent: *
+Disallow: https://sumedacellular.com/backend/
+Allow: http://cyclomax.net/sitemap.htm
+Sitemap: http://www.cyclomax.net/sitemap.xml

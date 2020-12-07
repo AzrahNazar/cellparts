@@ -1,0 +1,4 @@
+
+db: sumedacellular_sumedha_cellular
+un: sumedacellular_sumedha_cellular
+pwd: Sum3212

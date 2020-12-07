@@ -1,0 +1,48 @@
+ALTER TABLE  books 
+ADD FULLTEXT(book)
+
+ALTER TABLE  books 
+ADD FULLTEXT(details)
+
+
+ALTER TABLE 'books' ADD FULLTEXT(`book`,`details`);
+
+
+ALTER TABLE books ENGINE = MyISAM;
+
+ALTER TABLE books ENGINE = InnoDB;
+
+DROP INDEX details_2 ON books
+ALTER TABLE books DROP INDEX book
+
+
+
+SHOW CREATE TABLE tablename
+
+
+
+
+
+CREATE TABLE `books` (
+ `dcode` varchar(5) NOT NULL,
+ `ccode` varchar(5) NOT NULL,
+ `sccode` varchar(5) NOT NULL,
+ `supcode` varchar(5) NOT NULL,
+ `itemcode` varchar(15) NOT NULL,
+ `book` varchar(35) NOT NULL,
+ `price` double(10,2) NOT NULL,
+ `imgpath` varchar(100) NOT NULL,
+ `isbn` varchar(50) NOT NULL,
+ `details` varchar(350) NOT NULL,
+ `wholesales` double NOT NULL,
+ `eq` smallint(2) NOT NULL,
+ `eq_code` varchar(250) NOT NULL,
+ `imgpath_old` varchar(100) NOT NULL,
+ `new_arrival` varchar(50) NOT NULL DEFAULT '0',
+ `accessories` varchar(50) NOT NULL DEFAULT '0',
+ UNIQUE KEY `itemcode` (`itemcode`),
+ FULLTEXT KEY `book_2` (`book`),
+ FULLTEXT KEY `details_2` (`details`),
+ FULLTEXT KEY `book_3` (`book`,`details`),
+ FULLTEXT KEY `book_4` (`book`,`details`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1
