@@ -40,7 +40,6 @@
 									<li class=" <?php if(basename($_SERVER['PHP_SELF'])=='accessories-sumedacellular-kurunegala-srilanka.php'){echo 'active';} ?>"><a href="accessories-sumedacellular-kurunegala-srilanka">Accessories</a></li>
 									<li class="<?php if(basename($_SERVER['PHP_SELF'])=='newarrivals-sumedacelullar-kurunegala-srilanka.php'){echo 'active';} ?>" ><a href="newarrivals-sumedacelullar-kurunegala-srilanka">New Arrivals</a></li>
 									<li class="<?php if(basename($_SERVER['PHP_SELF'])=='contact-us-sumedacellular-kurunegala-srilanka.php'){echo 'active';} ?>"><a href="contact-us-sumedacellular-kurunegala-srilanka">Contact Us</a></li>
-									<!-- <li class="<?php // if(basename($_SERVER['PHP_SELF'])=='upload/index'){echo 'active';} ?>"><a href="upload/index">Free Download</a></li> -->
 
 									<!-- <li>
 										<div class="drpdwn">
